@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#140d0a" />
+    <meta
+      name="description"
+      content="Kurio — marketplace de NFTs para colecionadores. Descubra, colecione e compre arte digital rara de criadores emergentes e consagrados."
+    />
+    <link rel="preload" href="/fonts/roboto-mono-latin-wght.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Arte do primeiro destaque (LCP do início e do detalhe mais acessado) -->
+    <link rel="preload" href="/nfts/emerald.webp" as="image" type="image/webp" fetchpriority="high" />
+    <!-- App shell: primeira pintura imediata enquanto o JavaScript carrega (substituída pelo React). -->
+    <style>
+      html, body { margin: 0; background: #140d0a; color: #f5f1eb; font-family: 'Roboto Mono Variable', ui-monospace, Menlo, Consolas, monospace; }
+      .boot { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+      .boot-bar { height: 68px; display: flex; align-items: center; border-bottom: 1px solid #442c1a; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; }
+      .boot-hint { margin-top: 32px; height: 46px; border-radius: 12px; background: #241612; }
+      @media (min-width: 768px) { .boot-hint { display: none; } }
+    </style>
+    <title>Kurio — Marketplace de NFTs</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="boot" aria-hidden="true">
+        <div class="boot-bar">KURIO</div>
+        <div class="boot-hint"></div>
+      </div>
+    </div>
+    <noscript>A Kurio precisa de JavaScript habilitado para funcionar.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
