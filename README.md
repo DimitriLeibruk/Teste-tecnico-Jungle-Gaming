@@ -2,8 +2,8 @@
 
 Solução do desafio frontend da Jungle Gaming: marketplace de NFTs em **React + TypeScript** com descoberta, compra e conta do colecionador, versões desktop e mobile, API REST e tempo real **totalmente simulados com MSW** (inclusive Socket.IO).
 
-- **Aplicação publicada:** _adicione aqui a URL do deploy (Vercel)_
-- **Repositório:** _adicione aqui a URL do GitHub_
+- **Aplicação publicada:** https://teste-tecnico-jungle-gaming.vercel.app/
+- **Repositório:** https://github.com/DimitriLeibruk/Teste-tecnico-Jungle-Gaming
 - **Decisões técnicas, contratos e limitações:** [ARCHITECTURE.md](./ARCHITECTURE.md)
 - **Enunciado original:** [docs/DESAFIO.md](./docs/DESAFIO.md)
 
